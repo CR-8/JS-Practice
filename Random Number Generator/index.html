@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype 1</title>
+    <link rel="stylesheet" href="Project.css">
+</head>
+
+<body>
+    <div class="background">
+        <img src="Asset/Img1.jpg">
+    </div>
+    <div id="clock-container">
+        <div id="time"></div></div>
+        <div id="stopwatch">
+            <div id="display">00:00:00:00</div>
+            <div id="controls">
+                <button id="startBtn" onclick="start()">Start</button>
+                <button id="stopBtn" onclick="stop()">Stop</button>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <div class="random">
+        <div class="random_box">
+            <div class="random_number">
+                <div class="bg_num">
+                    <label id="char1" class="lottery_number">0</label>
+                </div>
+                <div class="bg_num">
+                    <label id="char2" class="lottery_number">0</label>
+                </div>
+                <div class="bg_num">
+                    <label id="char3" class="lottery_number">0</label>
+                </div>
+            </div>
+            <button id="random_button" class="button" aria-label="Generate a random number">I'm Feeling Lucky !</button>
+        </div>
+    </div>
+    <script src="Project.js"></script>
+</body>
+
+</html>

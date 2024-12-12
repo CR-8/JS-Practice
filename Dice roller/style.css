@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #2C3E50, #3498DB);
+    /* Dark blue gradient */
+    text-align: center;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+#h {
+    font-size: 3.8rem;
+    font-weight: 800;
+    margin: 15px;
+    color: #ECF0F1;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+#Question {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #E74C3C;
+    /* Bright red accent */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#Inputfield {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background: rgba(236, 240, 241, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#rollBtn {
+    border: none;
+    color: white;
+    background: linear-gradient(45deg, #E74C3C, #E67E22);
+    /* Orange-red gradient */
+    margin: 15px;
+    font-size: 2.2rem;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
+    box-shadow: 0 4px 20px rgba(231, 76, 60, 0.3);
+    transition: all 0.4s ease;
+}
+
+#rollBtn:hover {
+    background: linear-gradient(45deg, #C0392B, #D35400);
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: 0 6px 25px rgba(231, 76, 60, 0.4);
+}
+
+#dicenumber {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 30px;
+    color: #ECF0F1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#diceimage {
+    max-height: 160px;
+    margin: 60px;
+    transition: transform 0.4s ease;
+}
